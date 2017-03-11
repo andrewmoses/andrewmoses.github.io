@@ -1,0 +1,77 @@
+---
+layout: navi
+title: Photography | Andrew Moses
+images:
+  - image_path: ag.jpg
+    title: Ants on flowers
+  - image_path: an.jpg
+    title: Weird Ant
+  - image_path: ap.jpg
+    title: Ant lesson
+  - image_path: bh.jpg
+    title: Building Lights
+  - image_path: bs.jpg
+    title: Boat station
+  - image_path: bt.jpg
+    title: B/W light
+  - image_path: bv.jpg
+    title: Sister buildings
+  - image_path: bw.jpg
+    title: Focused beach
+  - image_path: cb.jpg
+    title: Roof mist
+  - image_path: cp.jpg
+    title: Chapathi roll
+  - image_path: cs.jpg
+    title: Mud crab
+  - image_path: ct.jpg
+    title: Clouds on move
+  - image_path: fd.jpg
+    title: Field grass
+  - image_path: lg.jpg
+    title: Scooty streak
+  - image_path: ln.jpg
+    title: Lion roar
+  - image_path: lt.jpg
+    title: Traffic lights
+  - image_path: mb.jpg
+    title: Mild moon
+  - image_path: mg.jpg
+    title: Inner peace
+  - image_path: mr.jpg
+    title: Moon flare
+  - image_path: rt.jpg
+    title: Tyre roof
+  - image_path: sp.jpg
+    title: Spider art
+  - image_path: sr.jpg
+    title: Sun rise
+  - image_path: st.jpg
+    title: Star strike
+  - image_path: sw.jpg
+    title: Thirsty squirrel
+  - image_path: tp.jpg
+    title: Night train
+  - image_path: tt.jpg
+    title: Train engine
+  - image_path: wb.jpg
+    title: White bird
+  - image_path: wd.jpg
+    title: Woody tree
+  - image_path: wl.jpg
+    title: Lake and traffic
+---
+<h2 style="text-align: center;"><i>I do Photography ;)</i></h2>
+<hr>
+<div>
+{% for image in page.images %}
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="{{ image.image_path }}">
+      <img src="{{ image.image_path }}" alt="{{ image.title }}" width="600" height="200">
+    </a>
+    <div class="desc">{{ image.title }}</div>
+  </div>
+</div>
+{% endfor %}
+</div>
