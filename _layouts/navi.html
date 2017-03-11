@@ -7,6 +7,54 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      div.gallery {
+          border: 1px solid #ccc;
+      }
+
+      div.gallery:hover {
+          border: 1px solid #777;
+      }
+
+      div.gallery img {
+          width: 100%;
+          height: auto;
+      }
+
+      div.desc {
+          padding: 15px;
+          text-align: center;
+      }
+
+      * {
+          box-sizing: border-box;
+      }
+
+      .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px){
+          .responsive {
+              width: 49.99999%;
+              margin: 6px 0;
+          }
+      }
+
+      @media only screen and (max-width: 500px){
+          .responsive {
+              width: 100%;
+          }
+      }
+
+      .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+    </style>
   </head>
   <body>
     <section class="page-header">

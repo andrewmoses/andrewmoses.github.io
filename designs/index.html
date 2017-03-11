@@ -1,0 +1,23 @@
+---
+layout: navi
+title: Designs | Andrew Moses
+images:
+  - image_path: aj.jpg
+    title: Awesome Jesus
+  - image_path: bf.jpg
+    title: Bob Folder
+  - image_path: bg.jpg
+    title: Gift banner
+---
+<h2 style="text-align: center;"><i>My Designs</i></h2>
+<hr>
+{% for image in page.images %}
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="{{ image.image_path }}">
+      <img src="{{ image.image_path }}" alt="{{ image.title }}" width="300" height="200">
+    </a>
+    <div class="desc">{{ image.title }}</div>
+  </div>
+</div>
+{% endfor %}
