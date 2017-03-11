@@ -8,16 +8,42 @@ images:
     title: Bob Folder
   - image_path: bg.jpg
     title: Gift banner
+  - image_path: cl.jpg
+    title: Campus Link
+  - image_path: em.jpg
+    title: EV poster
+  - image_path: fm.jpg
+    title: Chemistry event
+  - image_path: ft.jpg
+    title: Thankyou
+  - image_path: hf.jpg
+    title: Hope Fest
+  - image_path: hp.jpg
+    title: Hope Concert
+  - image_path: ic.jpg
+    title: ID card
+  - image_path: ls.jpg
+    title: Live Street
+  - image_path: tb.jpg
+    title: Trouble Shoot
+  - image_path: wc.jpg
+    title: Christmas gift
+  - image_path: wl.jpg
+    title: Leaders do
+  - image_path: wn.jpg
+    title: 4G
 ---
 <h2 style="text-align: center;"><i>My Designs</i></h2>
 <hr>
+<div>
 {% for image in page.images %}
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="{{ image.image_path }}">
-      <img src="{{ image.image_path }}" alt="{{ image.title }}" width="300" height="200">
+      <img src="{{ image.image_path }}" alt="{{ image.title }}" width="600" height="200">
     </a>
     <div class="desc">{{ image.title }}</div>
   </div>
 </div>
 {% endfor %}
+</div>
