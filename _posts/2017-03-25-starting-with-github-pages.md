@@ -95,11 +95,9 @@ Note: Your name should be within the quotes whereas your email ID doesn't need t
 
 1. In your newly created directory initialize a git repository and add index.html to your local repo by using the following commands.
 ```
-$git init
-
-$git add *
-
-$git commit -m "sample content"
+$ git init
+$ git add *
+$ git commit -m "sample content"
 ```
 > In the last command (git commit) "sample content" is the commit's comment. You can give some meaningful comments for your commits.
 
