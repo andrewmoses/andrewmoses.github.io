@@ -112,11 +112,11 @@ $ git push origin master
 
 ![local repo](http://andrewmoses.github.io/githubpages/push1.jpg)
 
-4. Go to your github repo and refresh. You will be able to see your index.html file there. Voila! Now you know how to upload files to github repo.
+* Go to your github repo and refresh. You will be able to see your index.html file there. Voila! Now you know how to upload files to github repo.
 
 ![remote repo](http://andrewmoses.github.io/githubpages/push2.jpg)
 
-5. Open your browser and point to your github pages domain. Your github page domain will be http://<username>.github.io - same as your repository name. Mine is http://gatestuts.github.io.
+* Open your browser and point to your github pages domain. Your github page domain will be http://<username>.github.io - same as your repository name. Mine is http://gatestuts.github.io.
 
 ![github page](http://andrewmoses.github.io/githubpages/push3.jpg)
 
