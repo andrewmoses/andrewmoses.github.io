@@ -8,4 +8,5 @@ You want to build a site using github pages. Then, the following text is going t
 
 # Step 1
 
-> Under development
+Create an account at github.com (or) just sign in with your credentials.
+![signup](http://andrewmoses.github.io/githubpages/githubpages1.jpg)
