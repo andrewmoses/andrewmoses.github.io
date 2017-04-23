@@ -116,7 +116,7 @@ $ git push origin master
 
 ![remote repo](http://andrewmoses.github.io/githubpages/push2.jpg)
 
-* Open your browser and point to your github pages domain. Your github page domain will be http://<username>.github.io - same as your repository name. Mine is http://gatestuts.github.io.
+* Open your browser and point to your github pages domain. Your github page domain will be http://*username*.github.io - same as your repository name. Mine is http://gatestuts.github.io.
 
 ![github page](http://andrewmoses.github.io/githubpages/push3.jpg)
 
