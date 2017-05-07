@@ -10,20 +10,18 @@ OK, kindly watch the video below to get a glimpse of DJ Mama.
 
 <div class="container">
 <iframe src="https://www.youtube.com/embed/Dn0nRWWPRh8" frameborder="0" allowfullscreen class="video"></iframe>
-</div>
-
-
+</div><br><br>
 DJ Mama was purely built using python. It primarily feeds on pygame and vlc.
 
 # Requirements
 
 1. Python 2.7 - [click here](https://www.python.org/download/releases/2.7/) to download
-2. Pygame - a python library http://www.pygame.org
-3. VLC media player - Get it at http://videolan.org
+2. Pygame - a python library [http://www.pygame.org](http://www.pygame.org)
+3. VLC media player - Get it at [http://videolan.org](http://videolan.org)
 
 # Step 1
 
-Download zip or clone the project repo from https://github.com/andrewmoses/DJmama
+Download zip or clone the project repo from [https://github.com/andrewmoses/DJmama](https://github.com/andrewmoses/DJmama)
 
 ```
 $ git clone https://github.com/andrewmoses/DJmama.git
@@ -56,5 +54,5 @@ t = vlc.MediaPlayer("good.mp3")
 r = vlc.MediaPlayer("move.mp3")
 ```
 
-Bring out the DJ in you!
-Happy DJaying :)
+Bring out the DJ in you!  
+Happy DJaying :)  
