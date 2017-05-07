@@ -8,7 +8,9 @@ Hi! Let me introduce DJ Mama. From it's name you can guess it has something to d
 
 OK, kindly watch the video below to get a glimpse of DJ Mama.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dn0nRWWPRh8" frameborder="0" allowfullscreen></iframe>
+<div class="container">
+<iframe src="https://www.youtube.com/embed/Dn0nRWWPRh8" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 DJ Mama was purely built using python. It primarily feeds on pygame and vlc.
 
