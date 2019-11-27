@@ -63,10 +63,10 @@ date: 2019-11-27
 * Revelation of God's plan for my life. Purpose of living. Solution to 'Why am I existing?' question.
 
 I don't want to be ordinary. Everyone is interested only at the extraordinary. E.g. Class first, strong physic, Guiness record holders, etc.
-God indeed has a unique extraordinary plan for me. Its factual because - it's God the creator Himself, His plan, definitely its gonna be extraordinary. Maybe not extraordinary at the eyes of the world, but its the real true extraordinary thing. Coz the world's yard stick is not accurate. Sometimes or most of the times, stupidity is seen as an extraordinary stuff in world's view point.
+God indeed has a unique extraordinary plan for me. Its factual because - it's God the creator Himself, His plan, definitely its gonna be extraordinary. Maybe not extraordinary at the eyes of the world, but its the real true extraordinary thing. Coz the world's yard stick is not accurate. Sometime or most of the time, stupidity is seen as an extraordinary stuff in world's view point.
 Therefore, regular quiet time is going to help me in knowing more about the great plan which God has in store for me.
 
-Quiet Time: "Its the heart beat of living a Christian life" -- Not in terms of a religion (which is how Christian term is seen now a days). Christian: followers of Christ. People who believed in Christ (i.e.) Jesus the God.
+Quiet Time: <b><i>"Its the heart beat of living a Christian life"</i></b> -- Not in terms of a religion (which is how Christian term is seen now a days). Christian: followers of Christ. People who believe in Christ (i.e.) Jesus the God.
 
 ## Incidents in Bible
 
