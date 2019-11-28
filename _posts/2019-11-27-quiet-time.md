@@ -62,9 +62,12 @@ date: 2019-11-27
 * A way to understand God's thoughts. His ways. His greatness!
 * Revelation of God's plan for my life. Purpose of living. Solution to 'Why am I existing?' question.
 
-I don't want to be ordinary. Everyone is interested only at the extraordinary. E.g. Class first, strong physic, Guiness record holders, etc.
+Guidance from above! Moreover I become a good human being.
 God indeed has a unique extraordinary plan for me. Its factual because - it's God the creator Himself, His plan, definitely its gonna be extraordinary. Maybe not extraordinary at the eyes of the world, but its the real true extraordinary thing. Coz the world's yard stick is not accurate. Sometime or most of the time, stupidity is seen as an extraordinary stuff in world's view point.
 Therefore, regular quiet time is going to help me in knowing more about the great plan which God has in store for me.
+
+* Keeps me away from sin.
+* Meditation: Filling mind with God's words. It is NOT something to empty the mind and be at peace. But to consciously take effort to understand and chew upon God's words.
 
 Quiet Time: <b><i>"Its the heart beat of living a Christian life"</i></b> -- Not in terms of a religion (which is how Christian term is seen now a days). Christian: followers of Christ. People who believe in Christ (i.e.) Jesus the God.
 
@@ -97,7 +100,7 @@ Matthew 7:24-27
 <b>Build Your House on the Rock</b>
 24 “Everyone then who hears these words of mine and does them will be like a wise man who built his house on the rock. 25 And the rain fell, and the floods came, and the winds blew and beat on that house, but it did not fall, because it had been founded on the rock. 26 And everyone who hears these words of mine and does not do them will be like a foolish man who built his house on the sand. 27 And the rain fell, and the floods came, and the winds blew and beat against that house, and it fell, and great was the fall of it.”
 
-A - About God: God makes things easy to understand. e.g. like my favorite youtube teachers Josh Starmer, Abdul Hari, etc.
+A - About God: God is a God who speaks to us. He speaks! and we can hear Him. God makes things easy to understand. e.g. like my favorite youtube teachers Josh Starmer, Abdul Hari, etc.
 
 S - Sin: Not obeying the word of God.
 
@@ -116,7 +119,7 @@ Matthew 8: 23-27
 
 A - About God: God can control the nature. Winds, sea, floods, earthquakes, tsunami, etc.
 
-S - Sin:
+S - Sin: Being of little faith. Even after experiencing so many blessings and miracles. Still, if I don't completely rely on God, it is going to be a sin.
 
 P - Promise: God can rescue us from any situation.
 
@@ -124,4 +127,4 @@ E - Example: Not to be of little faith like the people in the boat.
 
 C - Command:
 
-T - Teaching: Trust God, no matter how bad the storms in life are. God can change anything. I just need to put my faith in God.
+T - Teaching: Trust God, no matter how bad the storms in life are. God can change anything. I just need to put my faith in God. Even with God in the boat, there was a storm. But good news is, God will help us through the storm. Have faith and move forward boldly, don't be afraid of the storm.
