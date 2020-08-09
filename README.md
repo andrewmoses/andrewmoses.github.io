@@ -5,3 +5,7 @@ IF you are interested in building such website:
 ELSE:
     carry on!
 ```
+
+To start local server
+=====================
+```bundle exec jekyll serve```
