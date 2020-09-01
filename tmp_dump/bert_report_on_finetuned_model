@@ -1,0 +1,60 @@
+Original Abstract:  We introduce a new language representation model called , which stands for Bidirectional Encoder Representations from Transformers.
+Unlike recent language representation models ,  is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.
+As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.
+is conceptually simple and empirically powerful.
+It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7 (4.6 absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+
+
+
+
+System Abstract:  Language model has been shown to be effective for improving many natural language processing tasks
+Unlike language model the MLM objective enables the representation to fuse the left and the right which allows us to a deep bidirectional
+Learning widely applicable representations of words has been an active area of research for including and neural
+proposed learning contextual representations through a task to predict a single word from both left and right contextusing
+To make BERT handle a variety of input representation is able to unambiguously represent both a single sentence and a pair of sentences Answer in one token
+A refers to the input token sequence to which may be a single sentence or two sentences packed
+We use a batch size of and for epochs over the data for all GLUE
+The top results from the SQuAD leaderboard do not have public system descriptions and are allowed to use any public data when training their
+It has long been known that increasing the model size will lead to continual improvements on tasks such as machine translation and language which is demonstrated by the LM perplexity of training data shown in Table
+Both of these prior works used a approach we hypothesize that when the model is directly on the downstream tasks and uses only a very small number of randomly initialized additional the models can benefit from the more expressive representations even when downstream task data is very
+In these results enable even tasks to benefit from deep unidirectional
+Our major contribution is further generalizing these findings to deep bidirectional allowing the same model to successfully tackle a broad set of NLP
+
+
+
+
+Rouge Scores: 
+
+['---------------------------------------------',
+ '1 ROUGE-1 Average_R: 0.27737 (95%-conf.int. 0.27737 - 0.27737)',
+ '1 ROUGE-1 Average_P: 0.47799 (95%-conf.int. 0.47799 - 0.47799)',
+ '1 ROUGE-1 Average_F: 0.35104 (95%-conf.int. 0.35104 - 0.35104)',
+ '---------------------------------------------',
+ '1 ROUGE-2 Average_R: 0.04396 (95%-conf.int. 0.04396 - 0.04396)',
+ '1 ROUGE-2 Average_P: 0.07595 (95%-conf.int. 0.07595 - 0.07595)',
+ '1 ROUGE-2 Average_F: 0.05569 (95%-conf.int. 0.05569 - 0.05569)',
+ '---------------------------------------------',
+ '1 ROUGE-3 Average_R: 0.01838 (95%-conf.int. 0.01838 - 0.01838)',
+ '1 ROUGE-3 Average_P: 0.03185 (95%-conf.int. 0.03185 - 0.03185)',
+ '1 ROUGE-3 Average_F: 0.02331 (95%-conf.int. 0.02331 - 0.02331)',
+ '---------------------------------------------',
+ '1 ROUGE-4 Average_R: 0.00738 (95%-conf.int. 0.00738 - 0.00738)',
+ '1 ROUGE-4 Average_P: 0.01282 (95%-conf.int. 0.01282 - 0.01282)',
+ '1 ROUGE-4 Average_F: 0.00937 (95%-conf.int. 0.00937 - 0.00937)',
+ '---------------------------------------------',
+ '1 ROUGE-L Average_R: 0.24453 (95%-conf.int. 0.24453 - 0.24453)',
+ '1 ROUGE-L Average_P: 0.42138 (95%-conf.int. 0.42138 - 0.42138)',
+ '1 ROUGE-L Average_F: 0.30947 (95%-conf.int. 0.30947 - 0.30947)',
+ '---------------------------------------------',
+ '1 ROUGE-W-1.2 Average_R: 0.06765 (95%-conf.int. 0.06765 - 0.06765)',
+ '1 ROUGE-W-1.2 Average_P: 0.22222 (95%-conf.int. 0.22222 - 0.22222)',
+ '1 ROUGE-W-1.2 Average_F: 0.10372 (95%-conf.int. 0.10372 - 0.10372)',
+ '---------------------------------------------',
+ '1 ROUGE-S* Average_R: 0.06580 (95%-conf.int. 0.06580 - 0.06580)',
+ '1 ROUGE-S* Average_P: 0.19592 (95%-conf.int. 0.19592 - 0.19592)',
+ '1 ROUGE-S* Average_F: 0.09851 (95%-conf.int. 0.09851 - 0.09851)',
+ '---------------------------------------------',
+ '1 ROUGE-SU* Average_R: 0.06734 (95%-conf.int. 0.06734 - 0.06734)',
+ '1 ROUGE-SU* Average_P: 0.19947 (95%-conf.int. 0.19947 - 0.19947)',
+ '1 ROUGE-SU* Average_F: 0.10069 (95%-conf.int. 0.10069 - 0.10069)',
+ '']
