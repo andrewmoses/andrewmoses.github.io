@@ -8,4 +8,4 @@ ELSE:
 
 To start local server
 =====================
-```bundle exec jekyll serve```
+```jekyll serve```
