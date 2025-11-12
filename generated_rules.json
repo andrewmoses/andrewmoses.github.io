@@ -1,0 +1,354 @@
+{
+    "rules": [
+        {
+            "id": "R013",
+            "type": "combat",
+            "title": "Friendly Fire",
+            "description": "Shooting teammates results in immediate consequences that affect your gameplay experience. First, you will receive damage to your own health equal to 50% of the damage you dealt to your teammate. Second, repeated friendly fire incidents within a 2-minute window will result in a temporary weapon jam lasting 5 seconds. Third, if you down a teammate through friendly fire, you must revive them yourself or face a 25% penalty to your score for that match. Fourth, excessive friendly fire (more than 3 incidents in a single match) will trigger an automatic vote-kick system where your teammates can remove you from the game. Finally, friendly fire statistics are tracked on your player profile and can affect your reputation score.",
+            "severity": "high"
+        },
+        {
+            "id": "R014",
+            "type": "equipment",
+            "title": "Ammo Conservation",
+            "description": "Ammunition management is critical to survival and requires strategic decision-making throughout the match. First, all weapons have limited ammunition that does not automatically regenerate, forcing you to scavenge for more. Second, ammo can be found in designated supply crates scattered throughout the map, typically containing 1-2 magazines per weapon type. Third, eliminated enemies drop their remaining ammunition which you can collect by approaching their bodies. Fourth, different ammo types are categorized (light, heavy, shotgun, sniper, explosive) and you can only carry a maximum of 6 magazines per weapon type. Fifth, running completely out of ammo forces you to switch to your secondary weapon or melee attacks. Sixth, certain locations on the map have ammo resupply stations that refresh every 60 seconds but are often contested by multiple players. Seventh, wasting ammunition on suppressive fire or missed shots can leave you vulnerable in critical moments. Eighth, squad members can share ammunition with teammates who are running low, promoting teamwork and communication.",
+            "severity": "high"
+        },
+        {
+            "id": "R015",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R016",
+            "type": "movement",
+            "title": "Fall Damage",
+            "description": "Falling from heights poses a significant risk to your health and must be carefully managed. First, any fall from a height greater than 15 feet will begin to cause health damage. Second, the damage scales proportionally with fall distance, with falls from 15-25 feet causing 20-40% health loss, 25-40 feet causing 40-80% health loss, and anything over 40 feet resulting in instant death. Third, falling damage briefly stuns your character for 1-3 seconds depending on the height, during which you cannot sprint, jump, or aim accurately. Fourth, landing on certain surfaces like water, hay bales, or tarps negates fall damage entirely up to 30 feet. Fifth, tactical equipment like grappling hooks or parachutes can be deployed to prevent fall damage when descending from high positions. Sixth, falling damage triggers an audio cue that alerts nearby enemies to your location within a 25-meter radius. Seventh, consecutive falls without recovering health can lead to a broken leg status effect that reduces movement speed by 40% until healed.",
+            "severity": "high"
+        },
+        {
+            "id": "R017",
+            "type": "teamwork",
+            "title": "Revive Mechanic",
+            "description": "Saving downed teammates is a critical teamwork mechanic that can turn the tide of battle and preserve valuable resources. First, when a player is eliminated, they enter a 15-second downed state where they can crawl slowly and call for help. Second, any teammate can initiate a revive by approaching within 2 meters and holding the interaction button for 5 uninterrupted seconds. Third, the reviving player is completely vulnerable during the revive animation and cannot fire their weapon or defend themselves. Fourth, successful revives restore the downed player to 30% health, requiring them to seek healing items afterward. Fifth, revived players experience a 3-second disorientation effect where their vision is blurred and movement is slowed. Sixth, the downed state timer can be extended by up to 5 additional seconds if a teammate is actively attempting a revive, giving more time for completion. Seventh, medic class players can perform faster revives in 3 seconds and restore teammates to 50% health instead of 30%. Eighth, if no teammate attempts a revive within the 15-second window, the downed player automatically enters the full respawn cycle.",
+            "severity": "medium"
+        },
+        {
+            "id": "R018",
+            "type": "movement",
+            "title": "Fall Damage",
+            "description": "Falling from heights poses a significant risk to your health and must be carefully managed. First, any fall from a height greater than 15 feet will begin to cause health damage. Second, the damage scales proportionally with fall distance, with falls from 15-25 feet causing 20-40% health loss, 25-40 feet causing 40-80% health loss, and anything over 40 feet resulting in instant death. Third, falling damage briefly stuns your character for 1-3 seconds depending on the height, during which you cannot sprint, jump, or aim accurately. Fourth, landing on certain surfaces like water, hay bales, or tarps negates fall damage entirely up to 30 feet. Fifth, tactical equipment like grappling hooks or parachutes can be deployed to prevent fall damage when descending from high positions. Sixth, falling damage triggers an audio cue that alerts nearby enemies to your location within a 25-meter radius. Seventh, consecutive falls without recovering health can lead to a broken leg status effect that reduces movement speed by 40% until healed.",
+            "severity": "high"
+        },
+        {
+            "id": "R019",
+            "type": "movement",
+            "title": "Fall Damage",
+            "description": "Falling from heights poses a significant risk to your health and must be carefully managed. First, any fall from a height greater than 15 feet will begin to cause health damage. Second, the damage scales proportionally with fall distance, with falls from 15-25 feet causing 20-40% health loss, 25-40 feet causing 40-80% health loss, and anything over 40 feet resulting in instant death. Third, falling damage briefly stuns your character for 1-3 seconds depending on the height, during which you cannot sprint, jump, or aim accurately. Fourth, landing on certain surfaces like water, hay bales, or tarps negates fall damage entirely up to 30 feet. Fifth, tactical equipment like grappling hooks or parachutes can be deployed to prevent fall damage when descending from high positions. Sixth, falling damage triggers an audio cue that alerts nearby enemies to your location within a 25-meter radius. Seventh, consecutive falls without recovering health can lead to a broken leg status effect that reduces movement speed by 40% until healed.",
+            "severity": "high"
+        },
+        {
+            "id": "R020",
+            "type": "movement",
+            "title": "Fall Damage",
+            "description": "Falling from heights poses a significant risk to your health and must be carefully managed. First, any fall from a height greater than 15 feet will begin to cause health damage. Second, the damage scales proportionally with fall distance, with falls from 15-25 feet causing 20-40% health loss, 25-40 feet causing 40-80% health loss, and anything over 40 feet resulting in instant death. Third, falling damage briefly stuns your character for 1-3 seconds depending on the height, during which you cannot sprint, jump, or aim accurately. Fourth, landing on certain surfaces like water, hay bales, or tarps negates fall damage entirely up to 30 feet. Fifth, tactical equipment like grappling hooks or parachutes can be deployed to prevent fall damage when descending from high positions. Sixth, falling damage triggers an audio cue that alerts nearby enemies to your location within a 25-meter radius. Seventh, consecutive falls without recovering health can lead to a broken leg status effect that reduces movement speed by 40% until healed.",
+            "severity": "high"
+        },
+        {
+            "id": "R021",
+            "type": "teamwork",
+            "title": "Voice Communication",
+            "description": "Communication systems are designed to create realistic proximity-based teamwork while preventing information overload. First, standard in-game voice chat is automatically restricted to teammates who are within 50 meters of your current position. Second, voices naturally fade in volume as teammates move further away, with complete silence beyond the 50-meter threshold. Third, squad leaders have access to a command radio that allows them to communicate with other squad leaders across the entire map regardless of distance. Fourth, using the radio system requires equipping it as a tool, temporarily preventing you from using your weapon. Fifth, enemy players can intercept radio communications if they eliminate a squad leader and recover their radio equipment. Sixth, certain map locations feature communication jammers that disrupt all voice chat within a 100-meter radius, forcing teams to use visual signals. Seventh, quick voice commands and callouts are available as preset options that all nearby teammates can hear regardless of voice chat settings. Eighth, dead players can only communicate with other dead teammates during their respawn timer, preventing them from providing real-time intelligence to living players.",
+            "severity": "low"
+        },
+        {
+            "id": "R022",
+            "type": "respawn",
+            "title": "Respawn Timer",
+            "description": "Death is a temporary setback that removes you from combat and requires patience before rejoining the battle. First, upon elimination, players enter a downed state for 3 seconds where teammates can attempt a field revive. Second, if not revived, you enter the respawn queue and must wait exactly 10 seconds before spawning back into the match. Third, the respawn timer is displayed on your death screen along with statistics from your previous life. Fourth, during the respawn timer, you can view a tactical overview of the battlefield from your teammates' perspectives. Fifth, spawn timing is synchronized in waves, meaning multiple eliminated players may respawn simultaneously at the 10-second mark. Sixth, certain game modes feature variable respawn timers that increase with each death, starting at 10 seconds and adding 5 seconds per subsequent elimination up to a maximum of 30 seconds. Seventh, squad leaders who are eliminated impose a 15-second respawn timer on themselves to emphasize the importance of leadership survival. Eighth, respawn timers reset at the beginning of each new objective phase, giving all players a fresh start.",
+            "severity": "medium"
+        },
+        {
+            "id": "R023",
+            "type": "teamwork",
+            "title": "Voice Communication",
+            "description": "Communication systems are designed to create realistic proximity-based teamwork while preventing information overload. First, standard in-game voice chat is automatically restricted to teammates who are within 50 meters of your current position. Second, voices naturally fade in volume as teammates move further away, with complete silence beyond the 50-meter threshold. Third, squad leaders have access to a command radio that allows them to communicate with other squad leaders across the entire map regardless of distance. Fourth, using the radio system requires equipping it as a tool, temporarily preventing you from using your weapon. Fifth, enemy players can intercept radio communications if they eliminate a squad leader and recover their radio equipment. Sixth, certain map locations feature communication jammers that disrupt all voice chat within a 100-meter radius, forcing teams to use visual signals. Seventh, quick voice commands and callouts are available as preset options that all nearby teammates can hear regardless of voice chat settings. Eighth, dead players can only communicate with other dead teammates during their respawn timer, preventing them from providing real-time intelligence to living players.",
+            "severity": "low"
+        },
+        {
+            "id": "R024",
+            "type": "teamwork",
+            "title": "Revive Mechanic",
+            "description": "Saving downed teammates is a critical teamwork mechanic that can turn the tide of battle and preserve valuable resources. First, when a player is eliminated, they enter a 15-second downed state where they can crawl slowly and call for help. Second, any teammate can initiate a revive by approaching within 2 meters and holding the interaction button for 5 uninterrupted seconds. Third, the reviving player is completely vulnerable during the revive animation and cannot fire their weapon or defend themselves. Fourth, successful revives restore the downed player to 30% health, requiring them to seek healing items afterward. Fifth, revived players experience a 3-second disorientation effect where their vision is blurred and movement is slowed. Sixth, the downed state timer can be extended by up to 5 additional seconds if a teammate is actively attempting a revive, giving more time for completion. Seventh, medic class players can perform faster revives in 3 seconds and restore teammates to 50% health instead of 30%. Eighth, if no teammate attempts a revive within the 15-second window, the downed player automatically enters the full respawn cycle.",
+            "severity": "medium"
+        },
+        {
+            "id": "R025",
+            "type": "combat",
+            "title": "Headshot Bonus",
+            "description": "Headshots are the most effective way to eliminate enemies and come with multiple benefits. First, all headshots deal exactly 2x the base damage of your weapon, making them lethal in most situations. Second, successful headshots award 50 bonus points in addition to the standard elimination points. Third, consecutive headshots without missing build a multiplier that increases by 0.5x for each successive headshot, capping at 3x bonus points. Fourth, achieving 5 headshots in a single life unlocks a special 'Sharpshooter' badge and temporary aim assist enhancement for 30 seconds. Fifth, headshot elimination count is displayed on your profile as a skill metric. Sixth, certain challenges and achievements specifically track headshot performance and offer exclusive weapon skins as rewards.",
+            "severity": "medium"
+        },
+        {
+            "id": "R026",
+            "type": "equipment",
+            "title": "Ammo Conservation",
+            "description": "Ammunition management is critical to survival and requires strategic decision-making throughout the match. First, all weapons have limited ammunition that does not automatically regenerate, forcing you to scavenge for more. Second, ammo can be found in designated supply crates scattered throughout the map, typically containing 1-2 magazines per weapon type. Third, eliminated enemies drop their remaining ammunition which you can collect by approaching their bodies. Fourth, different ammo types are categorized (light, heavy, shotgun, sniper, explosive) and you can only carry a maximum of 6 magazines per weapon type. Fifth, running completely out of ammo forces you to switch to your secondary weapon or melee attacks. Sixth, certain locations on the map have ammo resupply stations that refresh every 60 seconds but are often contested by multiple players. Seventh, wasting ammunition on suppressive fire or missed shots can leave you vulnerable in critical moments. Eighth, squad members can share ammunition with teammates who are running low, promoting teamwork and communication.",
+            "severity": "high"
+        },
+        {
+            "id": "R027",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R028",
+            "type": "movement",
+            "title": "Sprint Limitation",
+            "description": "Sprinting is a valuable tactical option but comes with limitations to prevent overuse. First, sprinting depletes a stamina bar that drains completely after 8 seconds of continuous running. Second, once stamina is depleted, you automatically slow to normal walking speed and cannot sprint again until stamina regenerates. Third, stamina regenerates at a rate of 25% per second but only after 3 seconds of walking or standing completely still. Fourth, jumping or vaulting while sprinting costs an additional 20% of your stamina bar. Fifth, you cannot aim down sights or fire accurately while sprinting, requiring you to stop before engaging enemies. Sixth, sprinting generates noise that can be heard by enemies within a 30-meter radius, potentially revealing your position. Seventh, certain perks and equipment can modify stamina regeneration rates or maximum stamina capacity.",
+            "severity": "medium"
+        },
+        {
+            "id": "R029",
+            "type": "respawn",
+            "title": "Respawn Timer",
+            "description": "Death is a temporary setback that removes you from combat and requires patience before rejoining the battle. First, upon elimination, players enter a downed state for 3 seconds where teammates can attempt a field revive. Second, if not revived, you enter the respawn queue and must wait exactly 10 seconds before spawning back into the match. Third, the respawn timer is displayed on your death screen along with statistics from your previous life. Fourth, during the respawn timer, you can view a tactical overview of the battlefield from your teammates' perspectives. Fifth, spawn timing is synchronized in waves, meaning multiple eliminated players may respawn simultaneously at the 10-second mark. Sixth, certain game modes feature variable respawn timers that increase with each death, starting at 10 seconds and adding 5 seconds per subsequent elimination up to a maximum of 30 seconds. Seventh, squad leaders who are eliminated impose a 15-second respawn timer on themselves to emphasize the importance of leadership survival. Eighth, respawn timers reset at the beginning of each new objective phase, giving all players a fresh start.",
+            "severity": "medium"
+        },
+        {
+            "id": "R030",
+            "type": "teamwork",
+            "title": "Voice Communication",
+            "description": "Communication systems are designed to create realistic proximity-based teamwork while preventing information overload. First, standard in-game voice chat is automatically restricted to teammates who are within 50 meters of your current position. Second, voices naturally fade in volume as teammates move further away, with complete silence beyond the 50-meter threshold. Third, squad leaders have access to a command radio that allows them to communicate with other squad leaders across the entire map regardless of distance. Fourth, using the radio system requires equipping it as a tool, temporarily preventing you from using your weapon. Fifth, enemy players can intercept radio communications if they eliminate a squad leader and recover their radio equipment. Sixth, certain map locations feature communication jammers that disrupt all voice chat within a 100-meter radius, forcing teams to use visual signals. Seventh, quick voice commands and callouts are available as preset options that all nearby teammates can hear regardless of voice chat settings. Eighth, dead players can only communicate with other dead teammates during their respawn timer, preventing them from providing real-time intelligence to living players.",
+            "severity": "low"
+        },
+        {
+            "id": "R031",
+            "type": "combat",
+            "title": "Friendly Fire",
+            "description": "Shooting teammates results in immediate consequences that affect your gameplay experience. First, you will receive damage to your own health equal to 50% of the damage you dealt to your teammate. Second, repeated friendly fire incidents within a 2-minute window will result in a temporary weapon jam lasting 5 seconds. Third, if you down a teammate through friendly fire, you must revive them yourself or face a 25% penalty to your score for that match. Fourth, excessive friendly fire (more than 3 incidents in a single match) will trigger an automatic vote-kick system where your teammates can remove you from the game. Finally, friendly fire statistics are tracked on your player profile and can affect your reputation score.",
+            "severity": "high"
+        },
+        {
+            "id": "R032",
+            "type": "respawn",
+            "title": "Respawn Timer",
+            "description": "Death is a temporary setback that removes you from combat and requires patience before rejoining the battle. First, upon elimination, players enter a downed state for 3 seconds where teammates can attempt a field revive. Second, if not revived, you enter the respawn queue and must wait exactly 10 seconds before spawning back into the match. Third, the respawn timer is displayed on your death screen along with statistics from your previous life. Fourth, during the respawn timer, you can view a tactical overview of the battlefield from your teammates' perspectives. Fifth, spawn timing is synchronized in waves, meaning multiple eliminated players may respawn simultaneously at the 10-second mark. Sixth, certain game modes feature variable respawn timers that increase with each death, starting at 10 seconds and adding 5 seconds per subsequent elimination up to a maximum of 30 seconds. Seventh, squad leaders who are eliminated impose a 15-second respawn timer on themselves to emphasize the importance of leadership survival. Eighth, respawn timers reset at the beginning of each new objective phase, giving all players a fresh start.",
+            "severity": "medium"
+        },
+        {
+            "id": "R033",
+            "type": "teamwork",
+            "title": "Voice Communication",
+            "description": "Communication systems are designed to create realistic proximity-based teamwork while preventing information overload. First, standard in-game voice chat is automatically restricted to teammates who are within 50 meters of your current position. Second, voices naturally fade in volume as teammates move further away, with complete silence beyond the 50-meter threshold. Third, squad leaders have access to a command radio that allows them to communicate with other squad leaders across the entire map regardless of distance. Fourth, using the radio system requires equipping it as a tool, temporarily preventing you from using your weapon. Fifth, enemy players can intercept radio communications if they eliminate a squad leader and recover their radio equipment. Sixth, certain map locations feature communication jammers that disrupt all voice chat within a 100-meter radius, forcing teams to use visual signals. Seventh, quick voice commands and callouts are available as preset options that all nearby teammates can hear regardless of voice chat settings. Eighth, dead players can only communicate with other dead teammates during their respawn timer, preventing them from providing real-time intelligence to living players.",
+            "severity": "low"
+        },
+        {
+            "id": "R034",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R035",
+            "type": "equipment",
+            "title": "Ammo Conservation",
+            "description": "Ammunition management is critical to survival and requires strategic decision-making throughout the match. First, all weapons have limited ammunition that does not automatically regenerate, forcing you to scavenge for more. Second, ammo can be found in designated supply crates scattered throughout the map, typically containing 1-2 magazines per weapon type. Third, eliminated enemies drop their remaining ammunition which you can collect by approaching their bodies. Fourth, different ammo types are categorized (light, heavy, shotgun, sniper, explosive) and you can only carry a maximum of 6 magazines per weapon type. Fifth, running completely out of ammo forces you to switch to your secondary weapon or melee attacks. Sixth, certain locations on the map have ammo resupply stations that refresh every 60 seconds but are often contested by multiple players. Seventh, wasting ammunition on suppressive fire or missed shots can leave you vulnerable in critical moments. Eighth, squad members can share ammunition with teammates who are running low, promoting teamwork and communication.",
+            "severity": "high"
+        },
+        {
+            "id": "R036",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R037",
+            "type": "equipment",
+            "title": "Weapon Switching Delay",
+            "description": "Switching between weapons is not instantaneous and requires tactical awareness of timing. First, switching from your primary to secondary weapon incurs a 1.5 second animation delay during which you cannot fire. Second, switching from secondary back to primary takes 2 seconds due to the larger weapon size. Third, switching to or from melee weapons is faster at 0.8 seconds but still leaves you vulnerable. Fourth, the weapon switching animation can be interrupted by taking damage, forcing you to restart the entire switching process. Fifth, certain weapon attachments like quick-draw grips can reduce switching time by 25%. Sixth, attempting to switch weapons while reloading will cancel the reload and waste the time already spent. Seventh, during the switching animation your movement speed is reduced by 15%, making you an easier target. Eighth, special operator perks can eliminate weapon switching delays entirely but require sacrificing other valuable abilities.",
+            "severity": "low"
+        },
+        {
+            "id": "R038",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R039",
+            "type": "objectives",
+            "title": "Mission Time Limit",
+            "description": "Every match operates under strict time constraints that create pressure and urgency in gameplay. First, standard missions have a 20-minute time limit from the moment the match begins, displayed prominently on your HUD. Second, if the attacking team fails to complete all primary objectives within the time limit, the match automatically ends in a defensive victory. Third, certain objective completions add bonus time to the clock, typically 2-3 minutes, giving your team additional opportunities to secure victory. Fourth, the final 5 minutes of any match triggers an overtime warning with dramatic music and visual effects to increase tension. Fifth, if both teams are tied on points when time expires, a sudden death overtime period begins where the next objective captured or enemy eliminated determines the winner. Sixth, time can be manipulated by capturing specific 'time extension' points on the map that add 90 seconds to your team's clock. Seventh, sabotaging enemy objectives reduces their available time by 60 seconds, creating strategic opportunities for comeback victories. Eighth, mission time affects player respawn rates, with faster respawns occurring in the final minutes to create more intense gameplay.",
+            "severity": "high"
+        },
+        {
+            "id": "R040",
+            "type": "equipment",
+            "title": "Ammo Conservation",
+            "description": "Ammunition management is critical to survival and requires strategic decision-making throughout the match. First, all weapons have limited ammunition that does not automatically regenerate, forcing you to scavenge for more. Second, ammo can be found in designated supply crates scattered throughout the map, typically containing 1-2 magazines per weapon type. Third, eliminated enemies drop their remaining ammunition which you can collect by approaching their bodies. Fourth, different ammo types are categorized (light, heavy, shotgun, sniper, explosive) and you can only carry a maximum of 6 magazines per weapon type. Fifth, running completely out of ammo forces you to switch to your secondary weapon or melee attacks. Sixth, certain locations on the map have ammo resupply stations that refresh every 60 seconds but are often contested by multiple players. Seventh, wasting ammunition on suppressive fire or missed shots can leave you vulnerable in critical moments. Eighth, squad members can share ammunition with teammates who are running low, promoting teamwork and communication.",
+            "severity": "high"
+        },
+        {
+            "id": "R041",
+            "type": "movement",
+            "title": "Sprint Limitation",
+            "description": "Sprinting is a valuable tactical option but comes with limitations to prevent overuse. First, sprinting depletes a stamina bar that drains completely after 8 seconds of continuous running. Second, once stamina is depleted, you automatically slow to normal walking speed and cannot sprint again until stamina regenerates. Third, stamina regenerates at a rate of 25% per second but only after 3 seconds of walking or standing completely still. Fourth, jumping or vaulting while sprinting costs an additional 20% of your stamina bar. Fifth, you cannot aim down sights or fire accurately while sprinting, requiring you to stop before engaging enemies. Sixth, sprinting generates noise that can be heard by enemies within a 30-meter radius, potentially revealing your position. Seventh, certain perks and equipment can modify stamina regeneration rates or maximum stamina capacity.",
+            "severity": "medium"
+        },
+        {
+            "id": "R042",
+            "type": "respawn",
+            "title": "Respawn Timer",
+            "description": "Death is a temporary setback that removes you from combat and requires patience before rejoining the battle. First, upon elimination, players enter a downed state for 3 seconds where teammates can attempt a field revive. Second, if not revived, you enter the respawn queue and must wait exactly 10 seconds before spawning back into the match. Third, the respawn timer is displayed on your death screen along with statistics from your previous life. Fourth, during the respawn timer, you can view a tactical overview of the battlefield from your teammates' perspectives. Fifth, spawn timing is synchronized in waves, meaning multiple eliminated players may respawn simultaneously at the 10-second mark. Sixth, certain game modes feature variable respawn timers that increase with each death, starting at 10 seconds and adding 5 seconds per subsequent elimination up to a maximum of 30 seconds. Seventh, squad leaders who are eliminated impose a 15-second respawn timer on themselves to emphasize the importance of leadership survival. Eighth, respawn timers reset at the beginning of each new objective phase, giving all players a fresh start.",
+            "severity": "medium"
+        },
+        {
+            "id": "R043",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R044",
+            "type": "equipment",
+            "title": "Weapon Switching Delay",
+            "description": "Switching between weapons is not instantaneous and requires tactical awareness of timing. First, switching from your primary to secondary weapon incurs a 1.5 second animation delay during which you cannot fire. Second, switching from secondary back to primary takes 2 seconds due to the larger weapon size. Third, switching to or from melee weapons is faster at 0.8 seconds but still leaves you vulnerable. Fourth, the weapon switching animation can be interrupted by taking damage, forcing you to restart the entire switching process. Fifth, certain weapon attachments like quick-draw grips can reduce switching time by 25%. Sixth, attempting to switch weapons while reloading will cancel the reload and waste the time already spent. Seventh, during the switching animation your movement speed is reduced by 15%, making you an easier target. Eighth, special operator perks can eliminate weapon switching delays entirely but require sacrificing other valuable abilities.",
+            "severity": "low"
+        },
+        {
+            "id": "R045",
+            "type": "teamwork",
+            "title": "Revive Mechanic",
+            "description": "Saving downed teammates is a critical teamwork mechanic that can turn the tide of battle and preserve valuable resources. First, when a player is eliminated, they enter a 15-second downed state where they can crawl slowly and call for help. Second, any teammate can initiate a revive by approaching within 2 meters and holding the interaction button for 5 uninterrupted seconds. Third, the reviving player is completely vulnerable during the revive animation and cannot fire their weapon or defend themselves. Fourth, successful revives restore the downed player to 30% health, requiring them to seek healing items afterward. Fifth, revived players experience a 3-second disorientation effect where their vision is blurred and movement is slowed. Sixth, the downed state timer can be extended by up to 5 additional seconds if a teammate is actively attempting a revive, giving more time for completion. Seventh, medic class players can perform faster revives in 3 seconds and restore teammates to 50% health instead of 30%. Eighth, if no teammate attempts a revive within the 15-second window, the downed player automatically enters the full respawn cycle.",
+            "severity": "medium"
+        },
+        {
+            "id": "R046",
+            "type": "equipment",
+            "title": "Weapon Switching Delay",
+            "description": "Switching between weapons is not instantaneous and requires tactical awareness of timing. First, switching from your primary to secondary weapon incurs a 1.5 second animation delay during which you cannot fire. Second, switching from secondary back to primary takes 2 seconds due to the larger weapon size. Third, switching to or from melee weapons is faster at 0.8 seconds but still leaves you vulnerable. Fourth, the weapon switching animation can be interrupted by taking damage, forcing you to restart the entire switching process. Fifth, certain weapon attachments like quick-draw grips can reduce switching time by 25%. Sixth, attempting to switch weapons while reloading will cancel the reload and waste the time already spent. Seventh, during the switching animation your movement speed is reduced by 15%, making you an easier target. Eighth, special operator perks can eliminate weapon switching delays entirely but require sacrificing other valuable abilities.",
+            "severity": "low"
+        },
+        {
+            "id": "R047",
+            "type": "movement",
+            "title": "Fall Damage",
+            "description": "Falling from heights poses a significant risk to your health and must be carefully managed. First, any fall from a height greater than 15 feet will begin to cause health damage. Second, the damage scales proportionally with fall distance, with falls from 15-25 feet causing 20-40% health loss, 25-40 feet causing 40-80% health loss, and anything over 40 feet resulting in instant death. Third, falling damage briefly stuns your character for 1-3 seconds depending on the height, during which you cannot sprint, jump, or aim accurately. Fourth, landing on certain surfaces like water, hay bales, or tarps negates fall damage entirely up to 30 feet. Fifth, tactical equipment like grappling hooks or parachutes can be deployed to prevent fall damage when descending from high positions. Sixth, falling damage triggers an audio cue that alerts nearby enemies to your location within a 25-meter radius. Seventh, consecutive falls without recovering health can lead to a broken leg status effect that reduces movement speed by 40% until healed.",
+            "severity": "high"
+        },
+        {
+            "id": "R048",
+            "type": "respawn",
+            "title": "Spawn Protection",
+            "description": "Newly spawned players receive temporary protection to prevent immediate re-elimination and spawn camping. First, players receive exactly 3 seconds of complete invulnerability upon spawning, indicated by a shimmering blue aura around their character. Second, during this protection period, you cannot take any damage from enemy weapons, explosives, or environmental hazards. Third, spawn protection immediately ends if you fire your weapon, throw equipment, or use any offensive ability, so tactical patience is rewarded. Fourth, you can move freely, sprint, and position yourself strategically during spawn protection without penalty. Fifth, the protection timer is displayed above your health bar and counts down in real-time. Sixth, spawn protection also makes you invisible on enemy radar and minimaps, giving you a brief window of stealth. Seventh, if you take any aggressive action within the first second of spawning, you forfeit the remaining protection time entirely. Eighth, spawn locations are randomly selected from available team spawn points to prevent predictable patterns and reduce spawn camping effectiveness.",
+            "severity": "low"
+        },
+        {
+            "id": "R049",
+            "type": "objectives",
+            "title": "Capture Points",
+            "description": "Control zones are strategic locations that must be captured and defended to secure victory for your team. First, to capture a neutral zone, at least one team member must stand within the designated capture radius for 30 uninterrupted seconds. Second, capture progress is displayed as a percentage meter and will pause if enemies enter the zone, creating a contested state. Third, if multiple teammates are present in the zone, the capture speed increases by 10% per additional player, up to a maximum of 50% faster. Fourth, once captured, the zone displays your team's color and begins generating points at a rate of 5 points per second. Fifth, enemies can recapture your zones by following the same 30-second capture process, so defending captured points is crucial. Sixth, losing a capture point immediately stops point generation and gives the enemy team an opportunity to gain ground. Seventh, certain zones are designated as 'power positions' that grant 2x point generation but are typically harder to defend due to their exposed locations. Eighth, the team that reaches 1000 points first or controls the most zones when time expires wins the match.",
+            "severity": "high"
+        },
+        {
+            "id": "R050",
+            "type": "equipment",
+            "title": "Weapon Switching Delay",
+            "description": "Switching between weapons is not instantaneous and requires tactical awareness of timing. First, switching from your primary to secondary weapon incurs a 1.5 second animation delay during which you cannot fire. Second, switching from secondary back to primary takes 2 seconds due to the larger weapon size. Third, switching to or from melee weapons is faster at 0.8 seconds but still leaves you vulnerable. Fourth, the weapon switching animation can be interrupted by taking damage, forcing you to restart the entire switching process. Fifth, certain weapon attachments like quick-draw grips can reduce switching time by 25%. Sixth, attempting to switch weapons while reloading will cancel the reload and waste the time already spent. Seventh, during the switching animation your movement speed is reduced by 15%, making you an easier target. Eighth, special operator perks can eliminate weapon switching delays entirely but require sacrificing other valuable abilities.",
+            "severity": "low"
+        },
+        {
+            "id": "R051",
+            "type": "teamwork",
+            "title": "Revive Mechanic",
+            "description": "Saving downed teammates is a critical teamwork mechanic that can turn the tide of battle and preserve valuable resources. First, when a player is eliminated, they enter a 15-second downed state where they can crawl slowly and call for help. Second, any teammate can initiate a revive by approaching within 2 meters and holding the interaction button for 5 uninterrupted seconds. Third, the reviving player is completely vulnerable during the revive animation and cannot fire their weapon or defend themselves. Fourth, successful revives restore the downed player to 30% health, requiring them to seek healing items afterward. Fifth, revived players experience a 3-second disorientation effect where their vision is blurred and movement is slowed. Sixth, the downed state timer can be extended by up to 5 additional seconds if a teammate is actively attempting a revive, giving more time for completion. Seventh, medic class players can perform faster revives in 3 seconds and restore teammates to 50% health instead of 30%. Eighth, if no teammate attempts a revive within the 15-second window, the downed player automatically enters the full respawn cycle.",
+            "severity": "medium"
+        },
+        {
+            "id": "R052",
+            "type": "teamwork",
+            "title": "Voice Communication",
+            "description": "Communication systems are designed to create realistic proximity-based teamwork while preventing information overload. First, standard in-game voice chat is automatically restricted to teammates who are within 50 meters of your current position. Second, voices naturally fade in volume as teammates move further away, with complete silence beyond the 50-meter threshold. Third, squad leaders have access to a command radio that allows them to communicate with other squad leaders across the entire map regardless of distance. Fourth, using the radio system requires equipping it as a tool, temporarily preventing you from using your weapon. Fifth, enemy players can intercept radio communications if they eliminate a squad leader and recover their radio equipment. Sixth, certain map locations feature communication jammers that disrupt all voice chat within a 100-meter radius, forcing teams to use visual signals. Seventh, quick voice commands and callouts are available as preset options that all nearby teammates can hear regardless of voice chat settings. Eighth, dead players can only communicate with other dead teammates during their respawn timer, preventing them from providing real-time intelligence to living players.",
+            "severity": "low"
+        },
+        {
+            "id": "R053",
+            "type": "teamwork",
+            "title": "Revive Mechanic",
+            "description": "Saving downed teammates is a critical teamwork mechanic that can turn the tide of battle and preserve valuable resources. First, when a player is eliminated, they enter a 15-second downed state where they can crawl slowly and call for help. Second, any teammate can initiate a revive by approaching within 2 meters and holding the interaction button for 5 uninterrupted seconds. Third, the reviving player is completely vulnerable during the revive animation and cannot fire their weapon or defend themselves. Fourth, successful revives restore the downed player to 30% health, requiring them to seek healing items afterward. Fifth, revived players experience a 3-second disorientation effect where their vision is blurred and movement is slowed. Sixth, the downed state timer can be extended by up to 5 additional seconds if a teammate is actively attempting a revive, giving more time for completion. Seventh, medic class players can perform faster revives in 3 seconds and restore teammates to 50% health instead of 30%. Eighth, if no teammate attempts a revive within the 15-second window, the downed player automatically enters the full respawn cycle.",
+            "severity": "medium"
+        },
+        {
+            "id": "R054",
+            "type": "combat",
+            "title": "Friendly Fire",
+            "description": "Shooting teammates results in immediate consequences that affect your gameplay experience. First, you will receive damage to your own health equal to 50% of the damage you dealt to your teammate. Second, repeated friendly fire incidents within a 2-minute window will result in a temporary weapon jam lasting 5 seconds. Third, if you down a teammate through friendly fire, you must revive them yourself or face a 25% penalty to your score for that match. Fourth, excessive friendly fire (more than 3 incidents in a single match) will trigger an automatic vote-kick system where your teammates can remove you from the game. Finally, friendly fire statistics are tracked on your player profile and can affect your reputation score.",
+            "severity": "high"
+        },
+        {
+            "id": "R055",
+            "type": "respawn",
+            "title": "Respawn Timer",
+            "description": "Death is a temporary setback that removes you from combat and requires patience before rejoining the battle. First, upon elimination, players enter a downed state for 3 seconds where teammates can attempt a field revive. Second, if not revived, you enter the respawn queue and must wait exactly 10 seconds before spawning back into the match. Third, the respawn timer is displayed on your death screen along with statistics from your previous life. Fourth, during the respawn timer, you can view a tactical overview of the battlefield from your teammates' perspectives. Fifth, spawn timing is synchronized in waves, meaning multiple eliminated players may respawn simultaneously at the 10-second mark. Sixth, certain game modes feature variable respawn timers that increase with each death, starting at 10 seconds and adding 5 seconds per subsequent elimination up to a maximum of 30 seconds. Seventh, squad leaders who are eliminated impose a 15-second respawn timer on themselves to emphasize the importance of leadership survival. Eighth, respawn timers reset at the beginning of each new objective phase, giving all players a fresh start.",
+            "severity": "medium"
+        },
+        {
+            "id": "R056",
+            "type": "combat",
+            "title": "Headshot Bonus",
+            "description": "Headshots are the most effective way to eliminate enemies and come with multiple benefits. First, all headshots deal exactly 2x the base damage of your weapon, making them lethal in most situations. Second, successful headshots award 50 bonus points in addition to the standard elimination points. Third, consecutive headshots without missing build a multiplier that increases by 0.5x for each successive headshot, capping at 3x bonus points. Fourth, achieving 5 headshots in a single life unlocks a special 'Sharpshooter' badge and temporary aim assist enhancement for 30 seconds. Fifth, headshot elimination count is displayed on your profile as a skill metric. Sixth, certain challenges and achievements specifically track headshot performance and offer exclusive weapon skins as rewards.",
+            "severity": "medium"
+        },
+        {
+            "id": "R057",
+            "type": "equipment",
+            "title": "Ammo Conservation",
+            "description": "Ammunition management is critical to survival and requires strategic decision-making throughout the match. First, all weapons have limited ammunition that does not automatically regenerate, forcing you to scavenge for more. Second, ammo can be found in designated supply crates scattered throughout the map, typically containing 1-2 magazines per weapon type. Third, eliminated enemies drop their remaining ammunition which you can collect by approaching their bodies. Fourth, different ammo types are categorized (light, heavy, shotgun, sniper, explosive) and you can only carry a maximum of 6 magazines per weapon type. Fifth, running completely out of ammo forces you to switch to your secondary weapon or melee attacks. Sixth, certain locations on the map have ammo resupply stations that refresh every 60 seconds but are often contested by multiple players. Seventh, wasting ammunition on suppressive fire or missed shots can leave you vulnerable in critical moments. Eighth, squad members can share ammunition with teammates who are running low, promoting teamwork and communication.",
+            "severity": "high"
+        },
+        {
+            "id": "R058",
+            "type": "objectives",
+            "title": "Capture Points",
+            "description": "Control zones are strategic locations that must be captured and defended to secure victory for your team. First, to capture a neutral zone, at least one team member must stand within the designated capture radius for 30 uninterrupted seconds. Second, capture progress is displayed as a percentage meter and will pause if enemies enter the zone, creating a contested state. Third, if multiple teammates are present in the zone, the capture speed increases by 10% per additional player, up to a maximum of 50% faster. Fourth, once captured, the zone displays your team's color and begins generating points at a rate of 5 points per second. Fifth, enemies can recapture your zones by following the same 30-second capture process, so defending captured points is crucial. Sixth, losing a capture point immediately stops point generation and gives the enemy team an opportunity to gain ground. Seventh, certain zones are designated as 'power positions' that grant 2x point generation but are typically harder to defend due to their exposed locations. Eighth, the team that reaches 1000 points first or controls the most zones when time expires wins the match.",
+            "severity": "high"
+        },
+        {
+            "id": "R059",
+            "type": "equipment",
+            "title": "Weapon Switching Delay",
+            "description": "Switching between weapons is not instantaneous and requires tactical awareness of timing. First, switching from your primary to secondary weapon incurs a 1.5 second animation delay during which you cannot fire. Second, switching from secondary back to primary takes 2 seconds due to the larger weapon size. Third, switching to or from melee weapons is faster at 0.8 seconds but still leaves you vulnerable. Fourth, the weapon switching animation can be interrupted by taking damage, forcing you to restart the entire switching process. Fifth, certain weapon attachments like quick-draw grips can reduce switching time by 25%. Sixth, attempting to switch weapons while reloading will cancel the reload and waste the time already spent. Seventh, during the switching animation your movement speed is reduced by 15%, making you an easier target. Eighth, special operator perks can eliminate weapon switching delays entirely but require sacrificing other valuable abilities.",
+            "severity": "low"
+        },
+        {
+            "id": "R060",
+            "type": "movement",
+            "title": "Sprint Limitation",
+            "description": "Sprinting is a valuable tactical option but comes with limitations to prevent overuse. First, sprinting depletes a stamina bar that drains completely after 8 seconds of continuous running. Second, once stamina is depleted, you automatically slow to normal walking speed and cannot sprint again until stamina regenerates. Third, stamina regenerates at a rate of 25% per second but only after 3 seconds of walking or standing completely still. Fourth, jumping or vaulting while sprinting costs an additional 20% of your stamina bar. Fifth, you cannot aim down sights or fire accurately while sprinting, requiring you to stop before engaging enemies. Sixth, sprinting generates noise that can be heard by enemies within a 30-meter radius, potentially revealing your position. Seventh, certain perks and equipment can modify stamina regeneration rates or maximum stamina capacity.",
+            "severity": "medium"
+        },
+        {
+            "id": "R061",
+            "type": "teamwork",
+            "title": "Revive Mechanic",
+            "description": "Saving downed teammates is a critical teamwork mechanic that can turn the tide of battle and preserve valuable resources. First, when a player is eliminated, they enter a 15-second downed state where they can crawl slowly and call for help. Second, any teammate can initiate a revive by approaching within 2 meters and holding the interaction button for 5 uninterrupted seconds. Third, the reviving player is completely vulnerable during the revive animation and cannot fire their weapon or defend themselves. Fourth, successful revives restore the downed player to 30% health, requiring them to seek healing items afterward. Fifth, revived players experience a 3-second disorientation effect where their vision is blurred and movement is slowed. Sixth, the downed state timer can be extended by up to 5 additional seconds if a teammate is actively attempting a revive, giving more time for completion. Seventh, medic class players can perform faster revives in 3 seconds and restore teammates to 50% health instead of 30%. Eighth, if no teammate attempts a revive within the 15-second window, the downed player automatically enters the full respawn cycle.",
+            "severity": "medium"
+        },
+        {
+            "id": "R062",
+            "type": "equipment",
+            "title": "Ammo Conservation",
+            "description": "Ammunition management is critical to survival and requires strategic decision-making throughout the match. First, all weapons have limited ammunition that does not automatically regenerate, forcing you to scavenge for more. Second, ammo can be found in designated supply crates scattered throughout the map, typically containing 1-2 magazines per weapon type. Third, eliminated enemies drop their remaining ammunition which you can collect by approaching their bodies. Fourth, different ammo types are categorized (light, heavy, shotgun, sniper, explosive) and you can only carry a maximum of 6 magazines per weapon type. Fifth, running completely out of ammo forces you to switch to your secondary weapon or melee attacks. Sixth, certain locations on the map have ammo resupply stations that refresh every 60 seconds but are often contested by multiple players. Seventh, wasting ammunition on suppressive fire or missed shots can leave you vulnerable in critical moments. Eighth, squad members can share ammunition with teammates who are running low, promoting teamwork and communication.",
+            "severity": "high"
+        }
+    ]
+}
